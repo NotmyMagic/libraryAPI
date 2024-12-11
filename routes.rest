@@ -1,0 +1,15 @@
+### Get the root path /
+GET http://localhost:3000/ HTTP/1.1
+
+### Get the test route
+Get http://localhost:3000/test HTTP/1.1
+
+### Get a Book
+Get http://localhost:3000/books/6751e0de8af9c6f21a1615ed
+
+### Get Books
+GET http://localhost:3000/books HTTP/1.1
+
+### Post a book
+POST http://localhost:3000/books HTTP/1.1
+
